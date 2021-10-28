@@ -1,6 +1,7 @@
 {
   "name": "gerador-de-filmes",
   "version": "1.0.0",
+  "engines":{"node":"16.8.0"},
   "description": "Uma aplicação criada para fins de entretenimento, que altera o nome de um filme aleatório substituindo uma palavra do título pela palavra inserida pelo usuário.",
   "main": "main.js",
   "scripts": {

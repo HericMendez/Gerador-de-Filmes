@@ -3,4 +3,6 @@ const customExpress = require("./config/customExpress");
 const app = customExpress();
 
 
-app.listen(1234, ()=>console.log("Server running on port 1234"));
+var port = process.env.PORT || 8080;
+
+app.listen(port, ()=>console.log("Server running on port ", port));
